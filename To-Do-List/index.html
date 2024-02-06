@@ -3,9 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>To-Do-List</title>
 </head>
 <body>
-    
+    <!---Top Banner-->
+    <section class="top-banner">
+        <div class="container">
+         <div class="small-bold-text banner-text">Lets Begin </div>
+        </div>
+    </section>
+    <!---nav bar--->
+    <nav>
+      <div class="container main-nav flex">
+        <a href="#" class="company-logo">
+            <img src="assets/logo.png"  alt="company-logo">
+        </a>
+        <div class="nav-links">
+           <ul class="flex">
+             <li><input type="text" class="hover" id="search" placeholder="Search"></li>
+             <li><a href="#" class="hover"> Daily</a></li>
+             <li><a href="#" class="hover"> Monthly </a></li>
+             <li><a href="#" class="hover"> Weekly</a></li>
+             <li><a href="#" class="hover-link secondary-button"> View Tasks </a></li>
+             <li><a href="#" class="hover-link primary-button"> Add Tasks </a></li>
+             <input type="checkbox" id="dark-mode-toggle"/> 
+             <label for="dark-mode-toggle"></label>
+         </ul>
+        </div>
+        <a href="#" class="nav-toggle hover-links">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+      </div>
+    </nav>
+    <div class="mid-container">
+        <input type="text" class="first-div" placeholder="Add new task">
+            <h3>Add Task</h3>
+        <div class="second-div">
+            <h3>Completed Task</h3>
+        </div>
+    </div>
+    <div class="container">
+        <di id="card1">Personal
+            <img src="">
+        </div>
+        <div id="Work">Work</div>
+        <div id="Coding">Coding</div>
+        <div id="Study-time">Study-time</div>
+        <div id="health">Health</div>
+        <div id="Gym">Gym</div>
+    </div>
+    <div class="footer">
+        <div id="recent">Recently Completed Tasks</div>
+        <div id="event">Add new Event</div>
+    </div>
+    <script src="main.js">
+
+    </script>
 </body>
 </html>
