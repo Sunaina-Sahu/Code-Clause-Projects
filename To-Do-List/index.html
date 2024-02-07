@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="media.css"> 
     <title>To-Do-List</title>
 </head>
 <body>
     <!---Top Banner-->
     <section class="top-banner">
         <div class="container">
-         <div class="small-bold-text banner-text">Lets Begin </div>
+         <div class="small-bold-text banner-text">Lets Begin.. </div>
         </div>
     </section>
     <!---nav bar--->
@@ -19,9 +20,11 @@
         <a href="#" class="company-logo">
             <img src="assets/logo.png"  alt="company-logo">
         </a>
+        <a href="#" class="nav-toggle hover-links">
+            <i class="fa-solid fa-bars"></i>
+          </a>
         <div class="nav-links">
            <ul class="flex">
-             <li><input type="text" class="hover" id="search" placeholder="Search"></li>
              <li><a href="#" class="hover"> Daily</a></li>
              <li><a href="#" class="hover"> Monthly </a></li>
              <li><a href="#" class="hover"> Weekly</a></li>
@@ -31,34 +34,57 @@
              <label for="dark-mode-toggle"></label>
          </ul>
         </div>
-        <a href="#" class="nav-toggle hover-links">
-          <i class="fa-solid fa-bars"></i>
-        </a>
       </div>
     </nav>
     <div class="mid-container">
-        <input type="text" class="first-div" placeholder="Add new task">
+        <div class="first-div">
+         <input type="text" placeholder="Add new task">
             <h3>Add Task</h3>
+        </div>
         <div class="second-div">
-            <h3>Completed Task</h3>
+            <h3>Completed tasks</h3>
         </div>
+            
     </div>
-    <div class="container">
-        <di id="card1">Personal
-            <img src="">
+    <div class="task-type">
+        <!-- <div class="cards"> -->
+        <div id="card1"><h2>Personal</h2>
+            <h4>Total Number of Tasks<br>
+                Completed Tasks<br>
+                Remaining Tasks<br>
+            </h4>
         </div>
-        <div id="Work">Work</div>
-        <div id="Coding">Coding</div>
-        <div id="Study-time">Study-time</div>
-        <div id="health">Health</div>
-        <div id="Gym">Gym</div>
+        <div id="card2"><h2>Work</h2>
+            <h4>Total Number of Tasks<br>
+                Completed Tasks<br>
+                Remaining Tasks<br>
+            </h4>
+        </div>
+        
+        <div id="card3"><h2>Coding</h2>
+            <h4>Total Number of Tasks<br>
+                Completed Tasks<br>
+                Remaining Tasks<br>
+            </h4>
+        </div>
+        <div id="card4"><h2>Study-time</h2>
+            <h4>Total Number of Tasks<br>
+                Completed Tasks<br>
+                Remaining Tasks<br>
+            </h4>
+        </div>   
     </div>
     <div class="footer">
-        <div id="recent">Recently Completed Tasks</div>
-        <div id="event">Add new Event</div>
+        <div class="container main-nav flex">
+            <a href="#" class="company-logo">
+                <img src="assets/logo.png"  alt="company-logo">
+            </a>
+            
+        <div id="copyright">Copyright@2024</div>
     </div>
     <script src="main.js">
 
     </script>
+    <script src="https://kit.fontawesome.com/4741d4e356.js" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -1,0 +1,54 @@
+@media only screen and (min-width:200px) and (max-width:567px){
+    .nav-toggle{
+         display: block;
+    }
+    .nav-links{
+        display: none;
+    }
+    .mid-container{
+        margin: 20px 180px;
+        width: 200px;
+        height:200px;
+    }
+    .task-type{
+        width: 100%;
+        margin: 10px 10px;
+        padding: 20px 20px;
+    }
+     #card1,#card2,#card3,#card4{
+         flex-basis: 70%; 
+        width: 90px ;
+        height: 200px;
+        flex-direction:row;
+    } 
+}
+ @media only screen and (min-width:580px) and (max-width:1300px){
+    .nav-toggle{
+         display: block;
+    }
+    .nav-links{
+        display: none;
+    }
+    .mid-container{
+        margin: 20px 350px;
+        width: 200px;
+        height:200px;
+        position: relative;
+    }
+    .task-type{
+        width: 100%;
+        margin: 10px 10px;
+        padding: 40px 20px;
+        text-align: center;
+    }
+     #card1,#card2,#card3,#card4{
+         flex-basis: 70%; 
+        width: 90px ;
+        height: 200px;
+        padding: 40px ;
+        flex-direction:row;
+    } 
+}
+
+
+ 
